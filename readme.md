@@ -18,7 +18,6 @@ Urban traffic congestion leads to economic losses, CO₂ emissions, and commuter
 
 ##  Structure
 - `src/`: Core modules.
-- `notebooks/`: Interactive demo.
-- `data/`: Sample graphs.
-- `results/`: Plots and results.
-- `tests/`: Unit tests.
+- Interactive demo jupyter notebook.
+- Sample graphs.
+- Plots and results.
