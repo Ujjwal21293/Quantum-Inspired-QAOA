@@ -17,7 +17,7 @@ This project implements a **Quantum-Inspired QAOA** for solving combinatorial op
 
 ---
 
-## How to Run
+## Future Enhancements
 
 **Parameter Optimization:** Implement adaptive optimizers (e.g., SPSA, Adam) for QAOA angles.
 **Noise Modeling:** Simulate quantum noise using Qiskit Aer for more realistic results.
