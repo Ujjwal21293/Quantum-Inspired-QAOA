@@ -1,23 +1,30 @@
-# Quantum-Inspired Traffic Routing Optimization
+# Quantum-Inspired QAOA for Combinatorial Optimization
 
-This project demonstrates a simulation of the **Quantum Approximate Optimization Algorithm (QAOA)** to solve **urban traffic routing problems**, comparing it with classical algorithms such as Dijkstra.
+This project implements a **Quantum-Inspired QAOA** for solving combinatorial optimization problems such as Max-Cut.
 
-##  Problem
-Urban traffic congestion leads to economic losses, CO₂ emissions, and commuter delays. We aim to solve dynamic routing using QAOA principles, simulated classically.
+---
 
-##  Algorithm
-- **Quantum-Inspired QAOA** simulated classically.
-- **Cost Function**: penalizes congestion and distance.
-- **Mixer**: introduces exploration to escape local minima.
+## Project Structure
 
-##  Features
-- Graph-based city map with dynamic edge weights.
-- QAOA simulation with tunable parameters.
-- Classical heuristics comparison (Dijkstra).
-- Performance evaluation and visualization.
+| File/Folder | Description |
+|-------------|-------------|
+| `src/` | Contains core Python modules for QAOA implementation |
+| `qaoa_simulation.ipynb` | Interactive notebook showcasing QAOA simulation results |
+| `performance_comparison.png` | Graph comparing QAOA performance with classical heuristics |
+| `sample_graph.json` | Example graph input in JSON format |
+| `test_qaoa.py` | Script to test QAOA on the sample graph |
+| `readme.md` | Project overview and usage instructions |
 
-##  Structure
-- `src/`: Core modules.
-- Interactive demo jupyter notebook.
-- Sample graphs.
-- Plots and results.
+---
+
+## How to Run
+
+**Clone the repository**:
+   ```bash
+   git clone https://github.com/Ujjwal21293/Quantum-Inspired-QAOA.git
+   cd Quantum-Inspired-QAOA
+
+## How to Run
+
+**Parameter Optimization:** Implement adaptive optimizers (e.g., SPSA, Adam) for QAOA angles.
+**Noise Modeling:** Simulate quantum noise using Qiskit Aer for more realistic results.
